@@ -228,7 +228,7 @@
 
     function start_connection() {
         //conn = new WebSocket('ws://localhost:8080');
-        conn = new WebSocket('wss://ec2-54-169-16-17.ap-southeast-1.compute.amazonaws.com:8080');
+        conn = new WebSocket('ws://ec2-54-169-16-17.ap-southeast-1.compute.amazonaws.com:8080');
 
         conn.onopen = function(e) {
             console.log("Connection established!");
