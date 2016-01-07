@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>HereNear Chat</name>
+
+    <description>
+        Sample Chat App built with phonegap build. 
+    </description>
+
+    <author href="https://HereNear.in" email="nraghavendra89@gmail.com">
+        YourSBA
+    </author>
+
+    <preference name="android-build-tool" value="ant" />
+    <preference name="android-minSdkVersion" value="14" />
+
+</widget>
