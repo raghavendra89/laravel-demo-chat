@@ -1,0 +1,224 @@
+/* Individual Bid_request page */
+
+.container {
+	width: 94% !important;
+}
+
+
+
+/* Messages page */
+.chat_header {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 2px;
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    padding: 10px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+}
+
+.chat_header button {
+	float: right;
+}
+
+.chat_wrapper {
+	border-left: 1px solid #ddd;
+	height: 70vh;
+}
+
+.chat_box {
+	height: 60vh;
+	max-height: 65vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#message_list .row {
+	background-color: #f3f3f5;
+	height: 60px;
+	padding: 7px;
+}
+
+#message_list .row:hover {
+	cursor: pointer;
+	color: #fff;
+    background-color: #337ab7 !important;
+}
+
+.active_chat {
+	color: #fff;
+    background-color: #337ab7 !important;
+}
+
+#message_list>.active {
+	background-color: #D7DCDF;
+}
+
+#message_list .badge {
+	float: right;
+	margin-right: -25px;
+}
+
+.bid_description {
+	font-size: 12px;
+}
+
+.chat_face {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+
+.chat_face_you {
+	float: right;
+}
+
+.chat_new_text {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	position: absolute;
+    bottom: 0;
+}
+
+.chat_individual_text{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    width: 80%;
+}
+
+.chat_individual_text::before {
+    background-color: #F2F2F2;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.chat_me {
+    float: left;   
+    margin: 5px 45px 5px 35px;   
+    color: #fff;
+    background-color: #3980B5!important;      
+}
+
+.chat_me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;
+    background-color: #3980B5!important;  
+}
+
+.chat_you {
+    /*float: right;*/
+    margin: 5px 20px 5px 45px;         
+}
+
+.chat_you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;    
+}
+
+
+/* Fixing the Button text cut off issue */
+.btn{
+	white-space:normal !important;
+    /*max-width:200px;*/
+}
+
+.dealer_list ul li {
+	list-style: none;
+    border: 1px solid #337ab7;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    height: 25px;
+}
+
+.dealer_list ul li:hover {
+	cursor: pointer;
+    background-color: #337ab7;
+}
+
+
+/*  */
+.page_div {
+	
+}
+
+#login {
+	padding: 35px 15px;
+}
+
+.app_logo {
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.app_logo img {
+	width: 150px;
+	-ms-transform: rotate(118deg); /* IE 9 */
+    -webkit-transform: rotate(118deg); /* Chrome, Safari, Opera */
+    transform: rotate(118deg);
+}
+
+.form-group {
+	text-align: center;
+}
+
+.form-group .radio {
+	width: 100px;
+	margin: auto;
+	text-align: left;
+}
+
+.login_button {
+	width: 100%;
+}
+
+.app_header_logo {
+	text-align: center;
+	color: #fff;
+    background-color: #337ab7 !important;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.user_details {
+	color: #fff;
+    background-color: #3980B5!important;
+    padding: 7px;
+}
+
+.app_header_logo img {
+	width: 60px;
+}
+
+.app_header_logo h4 {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.user_details span {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.back {
+	background-color: #FFF;
+	color: #111;
+	float: left !important;
+	margin-left: 25px;
+	margin-top: 15px;
+}
