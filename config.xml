@@ -17,6 +17,7 @@
         YourSBA
     </author>
 
+    <plugin name="com.ququplay.websocket.websocket" spec="0.1.0" source="pgb" />
     <preference name="android-build-tool" value="ant" />
     <preference name="android-minSdkVersion" value="14" />
 
