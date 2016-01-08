@@ -71,8 +71,8 @@
 
         $.ajax({
             type: "GET",
-            url: 'http://localhost:8888/app/chat', 
-            //url: 'http://ec2-54-169-16-17.ap-southeast-1.compute.amazonaws.com/app/chat',  
+            //url: 'http://localhost:8888/app/chat', 
+            url: 'http://ec2-54-169-16-17.ap-southeast-1.compute.amazonaws.com/app/chat',  
             dataType: 'jsonp',                 // Using jsonp to avoid crossdomain problems e.g. www.site.com vs site.com
             data: dataString,
             cache: true,  
