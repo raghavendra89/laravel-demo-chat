@@ -19,6 +19,9 @@
     //$('#message_list').show();
     //$('#chatroom').show();
 
+    //added this line directly in github. remove this once testing is completed
+    var conn = new WebSocket('ws://ec2-54-169-16-17.ap-southeast-1.compute.amazonaws.com:8080');
+    
     function login() {
         if(window.localStorage["username"] != undefined && window.localStorage["password"] != undefined && window.localStorage["user_type"] != undefined) 
         {
